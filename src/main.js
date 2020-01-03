@@ -7,6 +7,7 @@ import {getRequest} from './utils/api'
 import {postRequest} from './utils/api'
 import {deleteRequest} from './utils/api'
 import {putRequest} from './utils/api'
+//import {isNotNullORBlank} from './utils/utils'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
@@ -15,7 +16,7 @@ Vue.prototype.getRequest = getRequest;
 Vue.prototype.postRequest = postRequest;
 Vue.prototype.deleteRequest = deleteRequest;
 Vue.prototype.putRequest = putRequest;
-Vue.prototype.isNotNullORBlank = isNotNullORBlank;
+//Vue.prototype.isNotNullORBlank = isNotNullORBlank;
 
 new Vue({
   render: h => h(App),
